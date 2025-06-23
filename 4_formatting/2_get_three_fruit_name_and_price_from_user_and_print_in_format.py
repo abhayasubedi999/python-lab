@@ -1,0 +1,12 @@
+# Get three fruit names and price from user and print in format. (Note: Align fruit name left with 12 spaces)
+
+first_fruit = input("enter the first fruit: ")
+price_of_first_fruit = float(input("enter the price of first fruit: "))
+second_fruit = input("enter the second fruit: ")
+price_of_second_fruit = float(input("enter the price of second fruit: "))
+third_fruit = input("enter the third fruit: ")
+price_of_third_fruit = float(input("enter the price of third fruit: "))
+print("{:<12}{}".format("item", "price"))
+print("{:<12}{}".format(first_fruit, price_of_first_fruit))
+print("{:<12}{}".format(second_fruit, price_of_second_fruit))
+print("{:<12}{}".format(third_fruit, price_of_third_fruit))
